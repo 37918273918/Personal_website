@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFR2GFKT75"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-RFR2GFKT75');
+  </script> -->
+  <!-- Google Tag Manager -->
+  <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  })(window,document,'script','dataLayer','GTM-NC38VTD');</script> -->
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta http-equiv="refresh" content="0; URL=https://cs.stanford.edu/~leoyuan/"> -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  
+	<!-- <meta name="google-site-verification" content="u_--0s_Uw50r4zCgRrzltkmFhNCduYOJwPGlKVTuNJU" /> -->
+
+  <title>Shuhan Huang</title>
+  <meta name="description" lang="en" content="This is an academic website for Will Hua">
+  <meta name="keywords" lang="en" content="Shuhan Huang" />
+  
+
+  <link rel="shortcut icon" href="images/J.jpeg">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/academicons.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
+  <script src="js/jquery-2.1.3.min.js"> </script>
+
+  <!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+</script>
+<![endif]-->
+
+  <script type="text/javascript">
+    function ShowHide(divId, linkDivId) {
+        if(document.getElementById(divId).style.display == 'none') {
+            document.getElementById(divId).style.display='block';
+            document.getElementById(linkDivId).style.display='none'; // Hide the "read more" link
+        }
+        else {
+            document.getElementById(divId).style.display = 'none';
+        }
+    }
+  </script>
+
+  <style>
+    /* 为所有列表项设置样式 */
+    li.indented {
+        position: relative;
+        padding-left: 90px; /* 这是对齐效果的关键，可以根据实际内容调整这个值 */
+    }
+
+    li.indented::before {
+        content: attr(data-date);
+        position: absolute;
+        left: 0;
+        top: 0;
+        white-space: nowrap;
+    }
+  </style>
+  
+
+  
+</head>
+
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC38VTD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+<!-- End Google Tag Manager (noscript) -->
+
+    <header class="site-header">
+
+  <div class="wrapper">
+<nav class="site-nav">
+  <a href="#" class="menu-icon">
+    <svg viewBox="0 0 18 15">
+      <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+      <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+      <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+    </svg>
+  </a>
+
+  <div class="trigger">
+    <a class="page-link" href="#bio"><b>Biography</b></a>
+    <a class="page-link" href="#timeline"><b>Internship</b></a>
+    <a class="page-link" href="#publications"><b>Papers</b></a>
+    <a class="page-link" href="#awards"><b>Honors & Awards</b></a>
+    <!--<a class="page-link" href="#otherprojects">Projects</a>-->
+    <!-- Button for Posts -->
+  </div>
+</nav>
+  </div>
+</header>
+
+  <div id="profile-cover" class="cover shallow-bg img-responsive"> 
+    <div id="profile-namecard" class="profile-wrapper wrapper-light">
+      <div id="my-pic" class="profile-col profile-col-1">
+        <img id="profile-avatar" src="images/Shuhan_avater.jpg" alt="Me" class="circle-img border-dark"-/>
+      </div>
+      <div id="my-contact" class="profile-col profile-col-2">
+        <div id="my-name" class="text-grey-dark">
+          Shuhan Huang<br>
+        </div>
+        <div id="my-title" class="text-grey">
+          Tsinghua University
+        </div>
+        <div id="my-email" class="text-grey-light">
+          huang-sh25 [at] mails.tsinghua.edu.cn
+        </div>
+
+	</div>
+        <!-- <div class="social-media">
+          <a href="https://scholar.google.com/citations?user=7SKAhBwAAAAJ&hl=en" target="_blank" class="icon-button linkedin">
+          <i class="ai ai-google-scholar-square icon-linkedin"></i>
+            <span></span>
+          </a>
+
+          <a href="https://github.com/Jun-CEN" target="_blank" class="icon-button github">
+            <i class="fa fa-github icon-github"></i>
+            <span></span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/jun-cen-45b995219/" target="_blank" class="icon-button linkedin">
+            <i class="fa fa-linkedin icon-linkedin"></i>
+            <span></span>
+          </a> -->
+         
+          <!-- <a href="work/Resume_Jun_CEN.pdf" target="_blank" class="icon-button github">
+            <i class="ai ai-cv icon-github"></i>
+            <span></span>
+          </a> -->
+          <!-- <a href="https://www.xiaohongshu.com/user/profile/616ae887000000000201f2fa" class="icon-button xiaohongshu" aria-label="小红书" target="_blank" rel="noopener noreferrer">
+            <i> <img src="https://cdn.simpleicons.org/xiaohongshu/FF2D55" alt="" width="45" height="45" style="vertical-align:middle;"> </i>
+            <span></span>
+          </a>
+
+          <a href="mailto:jcenaa@connect.ust.hk" target="_blank" class="icon-button linkedin">
+            <i class="fa fa-envelope icon-linkedin"></i>
+            <span></span>
+          </a>
+        </div> -->
+      </div>
+
+      <!-- <div id="my-desc" class="profile-col profile-col-2 hide">
+        <div id="my-desc-title">
+          Another me.
+        </div>
+        <div id="my-desc-content">
+          I enjoy running, traveling, hiking, movies, music and so much more<br>
+        </div>
+      </div> -->
+    </div>
+  </div>
+  <!-- <script type="text/javascript">
+    function deepFeature()
+    {
+      $('#profile-avatar').attr('src', 'images/self-portrait/deep-me.jpg');
+      $('#profile-avatar').removeClass('border-dark');
+      $('#profile-avatar').addClass('border-bright');
+
+      $('#profile-cover').removeClass('shallow-bg');
+      $('#profile-cover').addClass('deep-bg');
+      
+      $('#profile-namecard').removeClass('wrapper-light');
+      $('#profile-namecard').addClass('wrapper-dark');
+      
+      $('#my-desc').removeClass('hide');
+      $('#my-contact').addClass('hide');    
+      // console.log('Move in now...');
+    }
+
+    function shallowFeature()
+    {
+      $('#profile-avatar').attr('src', 'images/self-portrait/me.jpg');
+      $('#profile-avatar').removeClass('border-bright');
+      $('#profile-avatar').addClass('border-dark');
+
+      $('#profile-cover').removeClass('deep-bg');
+      $('#profile-cover').addClass('shallow-bg');
+      
+      $('#profile-namecard').removeClass('wrapper-dark');
+      $('#profile-namecard').addClass('wrapper-light');
+      
+      $('#my-contact').removeClass('hide');
+      $('#my-desc').addClass('hide');
+      // console.log('Move out now...');
+    }
+
+    $(function() { 
+      $('#my-pic').hover(deepFeature, shallowFeature);
+    })
+
+  </script> -->
+
+<div class="page-content">
+<div class="wrapper">
+<div id="bio" class="bio">
+
+  <h1 class="md-heading text-left">
+    <i class="fa fa-id-card" aria-hidden="true"></i>
+    Biography
+  </h1>
+  <div class="bio-body" style="overflow:hidden;">
+    <p>
+      I am currently a first-year Master’s student
+                         <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>,
+                        and my research focuses on Large Language Model, Efficient LLMs and Reinforcement Learning. Now I work as a Research Intern at <a href="https://www.tencent.com/zh-cn/">LLM department of Hunyuan, Tencent</a>.
+ 
+                        I got my BSc degree of Software Engineering in CUG between 2021-2025. At mean time, I worked as a LLM algorithm intern at  <a href="https://www.bytedance.com/zh/">ByteDance</a> and <a href="https://home.baidu.com/">Baidu</a>.
+                        I am actively seeking opportunities in both academia and industry. If you are interested to chat with me, feel free to drop me an email.
+
+      <br>
+    </p>
+
+    <!-- <div style="width: 50%; float:left">
+			<h3>
+		    <i class="fa fa-star" aria-hidden="true"></i>
+		    <strong>Interests</strong>
+			</h3>
+      <ul> -->
+        <!-- <li><b>Multi-modality</b></li> -->
+        <!-- <li><b>Embodied AI, Multi-modality LLM</b></li>
+        <a href="https://arxiv.org/pdf/2511.17502" target="_blank">[RynnVLA-002]</a><a href="https://arxiv.org/pdf/2506.21539" target="_blank">[WorldVLA]</a><a href="https://arxiv.org/pdf/2509.15212" target="_blank">[RynnVLA-001]</a><a href="https://neurips.cc/virtual/2025/poster/120127" target="_blank">[HiMaCon]</a><a href="https://arxiv.org/pdf/2509.19460" target="_blank">[SEIL]</a><a href="https://arxiv.org/pdf/2503.03464" target="_blank">[Survey]</a><a href="https://arxiv.org/abs/2402.10534" target="_blank">[VLP]</a><a href="https://ieeexplore.ieee.org/abstract/document/9681231" target="_blank">[VPN]</a>
+        <li><b>Autonomous Driving</b></li>
+        <a href="https://arxiv.org/abs/2403.13261" target="_blank">[STC]</a><a href="https://arxiv.org/abs/2207.01452" target="_blank">[REAL]</a><a href="https://arxiv.org/abs/2108.04562" target="_blank">[DML]</a><a href="https://arxiv.org/abs/2112.01135" target="_blank">[MLUC]</a>
+        <li><b>3D Segmentation</b></li>
+        <a href="https://arxiv.org/abs/2409.08083" target="_blank">[SimMAT]</a><a href="https://arxiv.org/abs/2403.17010" target="_blank">[Calib3D]</a><a href="https://arxiv.org/abs/2305.14207" target="_blank">[Segment Any RGBD]</a><a href="https://arxiv.org/abs/2306.09347" target="_blank">[Segment Any Point Cloud]</a><a href="https://arxiv.org/abs/2405.10305" target="_blank">[PSG-4D]</a><a href="https://arxiv.org/abs/2307.04091" target="_blank">[CMDFusion]</a>
+        <li><b>Open-set Recognition</b></li>
+        <a href="https://openreview.net/forum?id=xLr0I_xYGAs" target="_blank">[UOSR]</a><a href="https://arxiv.org/abs/2303.15467" target="_blank">[PSL]</a>
+        <li><b>Continual Learning</b></li>
+        <a href="https://arxiv.org/abs/2403.08568" target="_blank">[CPrompt]</a><a href="https://arxiv.org/abs/2211.00833" target="_blank">[FrameMaker]</a><a href="https://ieeexplore.ieee.org/abstract/document/9665922" target="_blank">[KD-TIL]</a>
+      </ul>
+    </div> -->
+
+    <div >
+			<h3>
+				<i class="fa fa-graduation-cap" aria-hidden="true"></i>
+				<strong>Education</strong>
+			</h3>
+			<b style="color:#2176FF;">Tsinghua University</b><br>
+			<ul>
+        <li>Master in Data Science and Information Technology, Sep. 2025 - Present</li>
+        <li>Research interset: Large Language Model, Efficient LLM and Reinforcement Learning</li>
+        <li>GPA: <b style="color:#2176FF;">4.0/4.0</b>; rank: <b style="color:#2176FF;">1/97</b></li>
+      </ul>
+      <b style="color:#2176FF;">China University of Geosciences</b><br>
+      <ul>
+        <li>Bachelor in Software Engineering, Sep. 2021 - Jun. 2025</li>
+        <li>Research interset: Graph Neural Network and Deep Learning</li>
+        <li>Avg Score: <b style="color:#2176FF;">94.0/100</b>; rank: <b style="color:#2176FF;">1/99</b></li>
+      </ul>
+      <b style="color:#2176FF;">Shenzhen Senior High School</b><br>
+      <ul>
+        <li> Sep. 2018 - Jun. 2021</li>
+        
+      </ul>
+    </div>
+  
+  </div>
+</div>
+
+<!-- <div id="news" class="bio">
+  <h1 class="md-heading text-left">
+    <i class="fa fa-tasks" aria-hidden="true"></i>
+    News
+  </h1>  
+  <ul>
+    	<li class="indented" data-date="[Feb, 2024]"> Give a talk on <a href="https://arxiv.org/pdf/2402.03675.pdf">protein-protein interaction prediction</a> to <a href="https://jian-tang.com/students/">Jian Tang's group</a>. [<a href="files/ppiretrieval.pdf">Slide</a>]</li>
+	<li class="indented" data-date="[Dec, 2023]"> Give a talk on <a href="https://arxiv.org/pdf/2304.14621.pdf">structure-based molecule design</a> at LoG2023 Montreal. [<a href="files/mudiff.pdf">Slide</a>][<a href="https://www.youtube.com/watch?v=Z5l-gaV-DUo">Video</a>]</li>
+    	<li class="indented" data-date="[Nov, 2023]"> One paper accepted to 2nd Learning on Graphs Conference.</li>
+    	<li class="indented" data-date="[Oct, 2023]"> One paper accepted to 37th Conference on Neural Information Processing Systems.</li>
+    	<li class="indented" data-date="[Sep, 2023]"> One paper accepted to 12th International Conference on Complex Networks and their Applications.</li>
+   	<li class="indented" data-date="[Oct, 2022]"> One paper accepted to 36th Conference on Neural Information Processing Systems, GLFrontiers, and selected for <b><span style="color: red;">Oral</span></b> presentation.</li>
+   	<li class="indented" data-date="[Oct, 2022]"> Two papers accepted to 36th Conference on Neural Information Processing Systems, and one paper selected for <b><span style="color: red;">Spotlight</span></b> presentation.</li>
+  </ul>
+</div> -->
+
+<!-- <div class="wrapper"> -->
+  <div id="timeline" class="timeline-brief">
+    <h1 class="md-heading text-left">
+      <i class="fa fa-tasks" aria-hidden="true"></i>
+      Internship Timeline
+    </h1>
+        <div class="timeline-item">
+          <div class="timeline-date">
+            <img class="social-icon" src="images/Tencent.jpg"/>
+            Dec, 2025 - Now
+          </div>
+          <div class="timeline-title">
+            LLM Research Intern @ <a href="https://www.tencent.com/zh-cn/" target="_blank">Tencent Hunyuan</a>
+          </div>
+          <div class="timeline-desc">
+            <div class="timeline-host">
+             Worked on general-purpose base model post training（RL） in knowledge-based QA Topic.
+            </div>
+          </div>
+        </div>
+  
+          <div class="timeline-item">
+            <div class="timeline-date">
+              <img class="social-icon" src="images/Douyin.jpg"/>
+              Jan, 2025 - Aug, 2025
+            </div>
+            <div class="timeline-title">
+              LLM Algorithm Intern @ <a href="https://www.bytedance.com/zh/" target="_blank">Bytedance Flow Group</a>
+            </div>
+            <div class="timeline-desc">
+              <div class="timeline-host">
+                Worked on model training（SFT&RL） for intelligent customer service scenarios.
+              </div>
+            </div>
+          </div>
+      
+          <div class="timeline-item">
+            <div class="timeline-date">
+              <img class="social-icon" src="images/Baidu.jpeg"/>
+              Sep, 2024 - Jan, 2025
+            </div>
+            <div class="timeline-title">
+              LLM Algorithm Intern @ <a href="https://home.baidu.com/" target="_blank">Baidu ACG Group</a>
+            </div>
+            <div class="timeline-desc">
+              <div class="timeline-host">
+                Worked on LLM applications in medical field and SFT of speech models.
+              </div>
+            </div>
+          </div>
+  
+    <br>
+  </div>
+  </div>
+
+<div id="research-program" class="research-program" style="max-width: 1000px; margin: 0 auto; padding: 10px; padding-left: 0;">
+  <h1 class="md-heading text-left" style="margin-left: -40px;">
+    <i class="fa fa-flask" aria-hidden="true"></i>
+    Research Program
+  </h1>
+
+  <div class="research-list" style="display: flex; flex-direction: column; align-items: center; gap: 30px; margin-top: 20px;">
+
+    <div class="research-item" style="display: flex; width: 100%; max-width: 900px; padding: 25px; border: 1px solid #ddd; border-radius: 12px; background-color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.1); align-items: flex-start;">
+      <div class="research-left" style="flex-shrink: 0; margin-right: 25px;">
+        <img class="social-icon" src="images/Tencent.jpg" style="width: 100px; height: 100px; object-fit: contain;"/>
+      </div>
+      <div class="research-right" style="flex-grow: 1;">
+        <div class="research-title" style="font-weight: bold; font-size: 15pt; margin-bottom: 15px;">
+          Tencent - Hunyuan Foundation Model Team
+        </div>
+        <ul style="margin-left: 20px; line-height: 2.0; font-size: 11pt;">
+          <li><b style="color:#2176FF;">Knowledge QA Post-training with Hallucination Reduction:</b> Leveraged SFT + RLVR and content based detection reward to optimize QA performance; improved accuracy on internal and open benchmarks about ~5-10%.</li>
+          <li><b style="color:#2176FF;">Knowledge-Aware Reward Modeling via Rubrics:</b> Built a knowledge-centric reward framework using knowledge extraction and rubric-based evaluation;  reducing atomic-level hallucinations significantly.</li>
+          <li><b style="color:#2176FF;">Adaptive Reasoning via Fast-Slow Thinking Fusion:</b> Combined SFT and RL to train fast/slow reasoning modes and introduced difficulty-aware rewards for adaptive switching.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="research-item" style="display: flex; width: 100%; max-width: 900px; padding: 25px; border: 1px solid #ddd; border-radius: 12px; background-color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.1); align-items: flex-start;">
+      <div class="research-left" style="flex-shrink: 0; margin-right: 25px;">
+        <img class="social-icon" src="images/Douyin.jpg" style="width: 100px; height: 100px; object-fit: contain;"/>
+      </div>
+      <div class="research-right" style="flex-grow: 1;">
+        <div class="research-title" style="font-weight: bold; font-size: 15pt; margin-bottom: 15px;">
+          Bytedance - Flow Group
+        </div>
+        <ul style="margin-left: 20px; line-height: 2.0; font-size: 11pt;">
+          <li><b style="color:#2176FF;">Agentic RAG via SearchRL: </b>Trained a  RAG Agent using SearchRL with LLM-as-a-Judge, format rewards, and search-based rewards; improved online accuracy by ~10%.</li>
+          <li><b style="color:#2176FF;">Automated Embedding Training Pipeline: </b>Developed a full-stack pipeline (from data processing to evaluation) for BGE models; improved FAQ retrieval recall by ~8% and enabled scalable reuse across teams.</li>
+          <li><b style="color:#2176FF;">High-Accuracy Intent Classification with Data Feedback Loop: </b>Trained an intent classification model via SFT and iterative bad-case mining + data synthesis; achieved 96% (HR) and 94.5% (CS) accuracy in production.</li>
+          <li><b style="color:#2176FF;">Topic Tree-Based Query Rewriting for RAG: </b>Constructed hierarchical topic trees via unsupervised clustering and used them for query rewriting and dual filtering; increased interception rate by ~5% and reached 75% overall.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="research-item" style="display: flex; width: 100%; max-width: 900px; padding: 25px; border: 1px solid #ddd; border-radius: 12px; background-color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.1); align-items: flex-start;">
+      <div class="research-left" style="flex-shrink: 0; margin-right: 25px;">
+        <img class="social-icon" src="images/Baidu.jpeg" style="width: 100px; height: 100px; object-fit: contain;"/>
+      </div>
+      <div class="research-right" style="flex-grow: 1;">
+        <div class="research-title" style="font-weight: bold; font-size: 15pt; margin-bottom: 15px;">
+          Baidu  - ACG Group
+        </div>
+        <ul style="margin-left: 20px; line-height: 2.0; font-size: 11pt;">
+          <li><b style="color:#2176FF;">Hierarchical Summarization for Medical RAG: </b>Designed a summary-tree framework with hierarchical aggregation over 3k+ medical documents; improved RAG QA accuracy by ~20% and enhanced knowledge structuring. </li>
+          <li><b style="color:#2176FF;">Speech Model Fine-tuning for Medical Dialogue Systems: </b>Fine-tuned ASR models with LoRA and deployed end-to-end systems; improved recognition accuracy from 85.1% to 98.7% and dialect recognition from 61.8% to 87.3%.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+  
+<div id="publications" class="publications" style="max-width: 1000px; margin: 0 auto; padding: 10px; padding-left: 0;">
+  <h1 class="md-heading text-left" style="margin-left: -40px;">
+    <i class="fa fa-file" aria-hidden="true"></i>
+    Papers
+  </h1>
+
+
+
+  <div class="pub-list">
+
+    <div class="pub" data-selected="true">
+      <div class="pub-left">
+        <img class="intro-img frame" src="images/Composite.png">
+      </div>
+      <div class="pub-right">
+        <div class="title">
+          Uncertainty-Guided Expert Routing in Mixture-of-Experts
+        </div>
+        <div class="authors">
+          <font style="font-size: 11pt;">
+            <b>Shuhan Huang</b> et al.
+          </font>
+        </div>
+        <div class="publish">
+          <span class="place">ACL ARR Mar 2026 </span>
+          <span class="place"></span>
+        </div>
+        <b>NLP Top Conference (Under Review)</b>
+      </div>
+    </div>
+
+   
+
+    <div class="pub" data-selected="true">
+      <div class="pub-left">
+        <img class="intro-img frame" src="images/MCFMOE.png">
+      </div>
+      <div class="pub-right">
+        <div class="title">
+          Multi-granularity information fusion for intelligent expert routing in transformer MOE
+        </div>
+        <div class="authors">
+          <font style="font-size: 11pt;">
+            <b>Shuhan Huang</b> et al.
+          </font>
+        </div>
+        <div class="publish">
+          <span class="place">ACL ARR Mar 2026</span>
+          <span class="place"></span>
+        </div>
+        <b>NLP Top Conference (Under Review)</b>
+      </div>
+    </div>
+
+    <div class="pub" data-selected="true">
+      <div class="pub-left">
+        <img class="intro-img frame" src="images/Relation-aware.png">
+      </div>
+      <div class="pub-right">
+        <div class="title">
+          Relational information fused heterogeneous graph attention network for DDI prediction
+        </div>
+        <div class="authors">
+          <font style="font-size: 11pt;">
+            <b>Shuhan Huang</b> et al.
+          </font>
+        </div>
+        <div class="publish">
+          <span class="place"> EAAI 2026</span>
+          <span class="place"></span>
+        </div>
+        <b>JCR Q1 (Under Review)</b>
+      </div>
+    </div>
+
+
+    <div class="pub" data-selected="false">
+      <div class="pub-left">
+        <img class="intro-img frame" src="images/HDGAT.png">
+      </div>
+      <div class="pub-right">
+        <div class="title">
+          Hierarchical and dynamic graph attention network for drug-disease association prediction
+        </div>
+        <div class="authors">
+          <font style="font-size: 11pt;">
+            <b>Shuhan Huang</b> et al.
+          </font>
+        </div>
+        <div class="publish">
+          <span class="place">IEEE JBHI 2024</span>
+          <span class="place"></span>
+        </div>
+        <b>JCR Q1 (Aceepted, IF=7.1, Citation=40+)</b>
+      </div>
+    </div>
+        
+        
+    
+
+	    
+	      
+      </div>
+    </div>
+
+    
+
+  </div>
+</div>
+</div>
+	
+<!-- JavaScript to handle button clicks -->
+<script>
+  // Get the buttons and publications
+  const showSelectedBtn = document.getElementById('show-selected-btn');
+  const showAllBtn = document.getElementById('show-all-btn');
+  const publications = document.querySelectorAll('.pub');
+
+  // Add event listener to 'Show Selected Publication' button
+  showSelectedBtn.addEventListener('click', function() {
+    publications.forEach(pub => {
+      if (pub.getAttribute('data-selected') === 'true') {
+        pub.style.display = 'block';  // Show selected publication
+      } else {
+        pub.style.display = 'none';  // Hide other publications
+      }
+    });
+  });
+
+  // Add event listener to 'Show All' button
+  showAllBtn.addEventListener('click', function() {
+    publications.forEach(pub => {
+      pub.style.display = 'block';  // Show all publications
+    });
+  });
+</script>
+
+<script>
+  const repos = [
+    { owner: "alibaba-damo-academy", repo: "WorldVLA", starId: "star-count", forkId: "fork-count" },
+    { owner: "GAI4Manipulation", repo: "AwesomeGAIManipulation", starId: "star-count-2", forkId: "fork-count-2" },
+    { owner: "Jun-CEN", repo: "CMDFusion", starId: "star-count-3", forkId: "fork-count-3" },
+    { owner: "Jun-CEN", repo: "SegmentAnyRGBD", starId: "star-count-4", forkId: "fork-count-4" },
+    { owner: "Jun-CEN", repo: "PSL", starId: "star-count-5", forkId: "fork-count-5" },
+    { owner: "Jun-CEN", repo: "Unified-Open-Set-Recognition", starId: "star-count-6", forkId: "fork-count-6" },
+    { owner: "Jun-CEN", repo: "Open-world-3D-semantic-segmentation", starId: "star-count-7", forkId: "fork-count-7" },
+    { owner: "Jun-CEN", repo: "Open-World-Semantic-Segmentation", starId: "star-count-8", forkId: "fork-count-8" },
+    { owner: "Jingkang50", repo: "PSG4D", starId: "star-count-9", forkId: "fork-count-9" },
+    { owner: "youquanl", repo: "Segment-Any-Point-Cloud", starId: "star-count-10", forkId: "fork-count-10" }
+  ];
+
+  async function loadGitHubStats() {
+    for (const { owner, repo, starId, forkId } of repos) {
+      try {
+        const res = await fetch(`https://api.github.com/repos/${owner}/${repo}`);
+        if (!res.ok) throw new Error("GitHub API error");
+        const data = await res.json();
+        document.getElementById(starId).innerText = data.stargazers_count ?? "–";
+        document.getElementById(forkId).innerText = data.forks_count ?? "–";
+      } catch (e) {
+        console.error(`Failed to load stats for ${owner}/${repo}`, e);
+        document.getElementById(starId).innerText = "–";
+        document.getElementById(forkId).innerText = "–";
+      }
+    }
+  }
+
+  loadGitHubStats();
+</script>
+
+
+<div class="wrapper">
+  <div id="awards" class="bio">
+    <h1 class="md-heading text-left">
+      <i class="fa fa-tasks" aria-hidden="true"></i>
+      Selected Honors & Awards
+    </h1>
+    <ul>
+  	<li> <b>National Scholarship</b>, 2022.</li>
+	<li> <b>Huawei Scholarship</b>, 2023.</li>
+	<li> <b>Outstanding Talent Scholarship in Information Science of CUG</b>, 2024.</li>
+	<li> <b>11th Teddy Cup Data Mining Challenge</b>, National First Prize (<b style="color:#2176FF;">Top 1%</b>), 2023.</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  .reviewer-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+  }
+
+  .reviewer-column {
+    flex: 1 1 50%;
+    box-sizing: border-box;
+    padding-right: 20px;
+    font-size: 0.85em; /* 字体略微变小 */
+    line-height: 1.6;
+    position: relative;
+    padding-left: 1em;
+    margin-bottom: 4px;
+  }
+
+  .reviewer-column::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #555;
+  }
+
+  @media (max-width: 600px) {
+    .reviewer-column {
+      flex: 1 1 100%;
+    }
+  }
+
+  .reviewer-title {
+    margin-top: 12px;
+    font-weight: bold;
+  }
+</style>
+
+
+
+<!-- 
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style="max-width: 400px; width: 100%;">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=K9NLvpbM7GH1cTCvhvVlo4LW5p-d2mRZYw6UhrAFw0g&cl=ffffff&w=a"></script>
+  </div>
+</div>
+
+
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>Personal Email:</li>
+          <li><a href="mailto:">jcenaa [at] connect.ust.hk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+          <a href="https://scholar.google.com/citations?user=7SKAhBwAAAAJ&hl=en" target="_blank" class="icon-button github">
+          <i class="ai ai-google-scholar-square icon-github"></i>
+            <span></span>
+          </a>
+
+          <a href="https://github.com/Jun-CEN" target="_blank" class="icon-button github">
+            <i class="fa fa-github icon-github"></i>
+            <span></span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/jun-cen-45b995219/" target="_blank" class="icon-button linkedin">
+            <i class="fa fa-linkedin icon-linkedin"></i>
+            <span></span>
+          </a>
+         
+          <a href="work/Resume_Jun_CEN.pdf" target="_blank" class="icon-button github">
+            <i class="ai ai-cv icon-github"></i>
+            <span></span>
+          </a> -->
+          <!-- <a href="https://www.xiaohongshu.com/user/profile/616ae887000000000201f2fa" class="icon-button xiaohongshu" aria-label="小红书" target="_blank" rel="noopener noreferrer">
+            <i> <img src="https://cdn.simpleicons.org/xiaohongshu/FF2D55" alt="" width="45" height="45" style="vertical-align:middle;"> </i>
+            <span></span>
+          </a>
+      </div>
+	<div class="footer-col footer-col-3">
+    	<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwillhua127.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
+	<!-- <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?user=Lxe71v4AAAAJ&hl=en&url=https%3A%2F%2Fscholar.google.com%2Fcitations&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a> -->
+		<!-- <p class="text">Last updated: Feb, 2026.<br>The style of this website is borrowed from <a href='https://leoyuan.site/' target="_blank">Zeqing Yuan's</a>.</p>
+	</div>
+  </div>
+  </div> -->
+
+</footer>
+    <div class="back-to-top">Top</div>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    var offset = 220;
+    var duration = 500;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+    
+        }
+    });
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+  </body>
+
+<!--
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60071442-1', 'auto');
+  ga('send', 'pageview');
+</script>
+-->
+
+<!--<script src="custom-pub.js"></script>-->
+</html>
